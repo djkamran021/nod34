@@ -255,272 +255,272 @@ channel : @kingbotpluss
 sodu : @mehdijokers
 ]],
     help_text_realm = [[
-Realm Commands:
+
+   ✴💠دستورات ریلم💠✴:
 
 !creategroup [Name]
-Create a group
+✴[ساخت گروه [نام گروه✴
 
 !createrealm [Name]
-Create a realm
+✴[ساخت ریلم [نام ریلم✴
 
 !setname [Name]
-Set realm name
+✴[تنظیم نام [نام✴
 
 !setabout [GroupID] [Text]
-Set a group's about text
+✴[تنظیم درباره گروه [ایدی گروه ][متن✴
 
 !setrules [GroupID] [Text]
-Set a group's rules
+✴[تنظیم  قوانین گروه [ایدی گروه ][ متن✴
 
 !lock [GroupID] [setting]
-Lock a group's setting
+✴[قفل گروه[ایدی گروه][تنظیمات✴
 
 !unlock [GroupID] [setting]
-Unock a group's setting
+✴[بازکردن گروه [ایدی گروه ][تنظیمات✴
 
 !wholist
-Get a list of members in group/realm
+✴لیست اعضای گروه/ریلم به صورت متن✴
 
 !who
-Get a file of members in group/realm
+✴لیست اعضای گروه/ریلم درفایل زیپ✴
 
 !type
-Get group type
+✴نوع گروه✴
 
 !kill chat [GroupID]
-Kick all memebers and delete group
+✴[حذف گروه [ایدی گروه✴
 
 !kill realm [RealmID]
-Kick all members and delete realm
+✴[حذف ریلم [ایدی ریلم✴
 
 !addadmin [id|username]
-Promote an admin by id OR username *Sudo only
+✴[ادمین  اصلی[ایدی |یوزرنیم✴
 
 !removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
+✴[حذف ادمین اصلی [ایدی|یوزرنیم✴
+
+!banall [id|username]
+✴[سوپر بن کردن افراد[ایدی][یوزرنیم✴
+
+!unbanall [id|username]
+✴[دراوردن از سوپر بن [ایدی][یوزرنیم✴
 
 !list groups
-Get a list of all groups
+✴لیست گروهای ربات✴
 
 !list realms
-Get a list of all realms
+✴لیست ریلم های ربات✴
+
+!plugins 
+✴دریافت پلاگین های ربات✴
+
+!plugins + name 
+✴[فعال کردن پلاگین  [نام پلاگین✴
+
+!plugins - name 
+✴[غیر فعال کردن پلاگین [نام پلاگین✴
+
+!addplugin [cd plugin]+[name+.lua
+✴[.lua+اضافه کردن پلاگین [کدهای پلاگین][نام پلاگین✴
 
 !log
-Grt a logfile of current group or realm
+✴دریافت وردی های گروه و ریلم✴
 
 !broadcast [text]
-!broadcast Hello !
-Send text to all groups
-Only sudo users can run this command
+✴[ارسال یک پیام به تمام گروه ها[متن پیام✴
 
-!bc [group_id] [text]
-!bc 123456789 Hello !
-This command will send text to [group_id]
+!br [group_id] [text]
+✴[ارسال دستور به گروه[ایدی گروه][متن✴
 
+    
+شما میتوانید از دستورات زیر استفاده کنید👇🏻  
+"!" "/" 
+   
 ch: @mehdijokers$$$$shayan123
 
 ]],
     help_text = [[
-NOD32 Commands list :
  
-1-banhammer list ^
- 
-!kick [username|id]
-(کیک کردن شخص (حتی با ریپلی)
+   
+    💠 دستورات گروه 💠: 
+!kick [ایدی فرد و یا ریپلی پیام او]
+➿کیک کردن فردی➿
 
-!ban [ username|id]
-(بن کردن افراد (حتی با ریپلی)
+!ban [ایدی فرد و یا ریپلی پیام او]
+➿کیک دائمی فردی➿
 
-!unban [id]
-(انبن کردن افراد (همراه ایدی)
-
-!kickinactive
-حذف اعضای غیرغعال گروه
-
-!kickme
-خروج از گروه
-
-2-Statistics list ^
+!unban [ایدی فرد و یا ریپلی پیام او]
+➿خلاص شدن از کیک دائمی فردی➿
 
 !who
-لیست+ایدی همه اعضا
+➿لیست اعضا در فایل زیپ➿
 
-!all
-دریافت اطلاعات کلی گروه
-
-!stats
-امار کلی گروه
+!wholist
+➿دریافت لیست اعضا به صورت متن➿
 
 !modlist
-لیست مدیران گروه
+➿لیست مدیران گروه➿
 
-!banlist
-لیست اعضا بن شده
+!promote [ایدی فرد و یا ریپلی پیام او]
+➿اضافه کردن مدیری به گروه➿
 
-3-Rate Member ^
+!demote [ایدی فرد و یا ریپلی پیام او.]
+➿حذف کردن فردی از مدیریت در گروه➿
 
-!setowner [id]
-(id ایجاد مدیر جدید (همراه 
-
-!promote [username]
-(ایجاد ادمین جدید (همراه ریپلی)
-
-!demote [username]
-(برکنار کردن ادمین (همراه ریپلی)
-
-4-General changes ^
-
-!setname [name]
-ایجاد اسم جدید برای گروه
-
-!setphoto
-ایجاد عکس جدید برای پروفایل گروه
-
-!set rules <text>
-ایجاد قانون جدید برای گروه
-
-!set about <text>
-ایجاد درباره گروه
-
-!setflood [value]
-حساسیت به اسپم در گروه
-
-5-View details ^
+!kickme
+➿خروج از گروه➿
 
 !about
-درباره گروه
+➿درباره گروه➿
+
+!setphoto
+➿تنظیم عکس  و قفل کردن ان➿
+
+!setname [نام]
+➿تنظیم نام گروه به : نام➿
 
 !rules
-قوانین گروه
+➿قوانین گروه➿
+
+!id
+➿ایدی گروه و با ریپلی کردن پیام فردی ایدی او را نشان میدهد➿
+
+!set rules <متن>
+➿تنظیم قوانین گروه به : متن➿
+
+!set about <متن>
+➿تنظیم درباره گروه به : متن➿
 
 !settings
-دیدن تنظیمات فعلی گروه
+➿تنظیمات گروه➿
 
-!help
-لیست دستورات ربات
+!newlink
+➿لینک جدید➿
 
-6-Security Group ^
+!link
+➿لینک گروه➿
+
+!linkpv
+➿لینک گروه در شخصی➿
+
+!time tehran
+➿نشان دهنده ساعت➿
+
+!celc 2+3
+➿ماشین حساب➿
+
+!lock arabic
+➿قفل زبان فارسی در گروه➿
+
+!unlock arabic
+➿ازاد کردن زبان فارسی درگروه➿
+
+!google بازی 
+➿سرچ کردن در گوگل➿ 
+
+!webshot https://google.com
+➿شات گرفتن از سایت➿
+
+!wikifa شاه
+➿درباره چیزی➿
+
+!support
+➿دعوت ادمین ربات➿ 
+
+!owner
+➿ایدی صاحب گروه➿
+
+!setowner [ایدی فرد و یا ریپلی پیام او]
+➿تنظیم صاحب گروه➿
+
+!setflood [عدد]
+➿تنظیم مقدار اسپم : میتواند از عدد 5 شروع شود➿
+
+!lock link
+➿قفل کردن لینک گذاشتن درگروه➿
+
+!stats
+➿نمایش تعداد پیام ها➿
+
+!get [نام دستور]
+➿دریافن دستور➿
+
+!clean [modlist|rules|about]
+➿پاک کردن : لیست مدیران - قوانین - درباره گروه➿
+
+!res [username]
+➿دریافت نام و ایدی فردی. مثال👇➿
+➿"!res @mehdijokers"➿
+
+!banlist
+➿لیست افراد بن شده➿
+
+!kickinactive
+➿حذف اعضای غیرغعال گروه➿
+
+!kickme
+➿خروج از گروه➿
 
 !lock member 
-قفل ورود اعضا جدید
+➿قفل ورود اعضا جدید➿
 
 !lock join
-قفل ورود اعضا جدید توسط لینک
+➿قفل ورود اعضا جدید توسط لینک➿
 
 !lock name
-قفل اسم گروه
+➿قفل اسم گروه➿
 
 !lock chat
-قفل چت ممنوع
+➿قفل چت ممنوع➿
 
 !lock ads
-قفل تبلیغات
+➿قفل تبلیغات➿
 
 !lock leave
-قفل خروج=بن گروه
+➿قفل خروج=بن گروه➿
 
 !lock fosh
-ممنوع کردن فحش
+➿ممنوع کردن فحش➿
 
 !lock chat
-قفل چت ممنوع گروه
+➿قفل چت ممنوع گروه➿
 
 !antibot enable 
-ورود ربات ها ممنوع
+➿ورود ربات ها ممنوع➿
 
 !antibot disable
-ورود ربات ها ازاد
+➿ورود ربات ها ازاد➿
 
 !unlock xxxx
 [*name*leave*member]
 [*fosh*ads]
 [chat*join*photo]
-باز کردن دستورات قفل شده
-
-7-Fun time ^
-
-!time country city
-ساعت کشور مورد نظر
+➿باز کردن دستورات قفل شده➿
 
 !loc country city
-مشخصات کشور و شهر مورد نظر
-
-!google
-سرچ مطلب مورد نظر از گوگل
+➿مشخصات کشور و شهر مورد نظر➿
  
- !gps
- مکان کشور , شهر مورد نظر تحت گوگل
- 
- !calc 3+1
- انجام محاسبات ریاضی
-
-8-Service Provider ^
-
-!newlink
-ایجاد لینک جدید
-
-!link
-نمایش لینک گروه
-
-!linkpv
-فرستادن لینک گروه تو پیوی
-(حتما شماره ربات را سیو کنید)
-
-!invite username
-اضافه کردن شخص تو گروه
-(حتما شماره ربات را سیو کرده باشد)
-
-9-Member Profile and Group ^
-!owner
-مدیر گروه
-
-!id
-ایدی شخص مورد نظر
-
-!res [username]
-در اوردن ایدی شخص مورد نظر
-
-!info 
-مخشصات فرد مورد نظر
-
-!settings
-تنظیمات فعلی گروه
-
-10-filter word Mode ^
+!gps
+ ➿مکان کشور , شهر مورد نظر تحت گوگل➿
 
 !filter set (word)
-اضافه کردن کلمه جدید به لیست
+➿اضافه کردن کلمه جدید به لیست➿
 
 !filter del (word)
-حذف کلمه از لیست
+➿حذف کلمه از لیست➿
 
 !filter warn (word)
-اخطار به کلمه فیتر شده
+➿اخطار به کلمه فیلتر شده➿
 
 !filterlist
-لیست کلمات فیلتر شده
+➿لیست کلمات فیلتر شده➿
 
-11-bot number & support ^
+شما میتوانید از دستورات زیر استفاده کنید👇
+"!" "/" 
+ سازنده ها: @mehdijokers__@shayan123hacker   
+کانال ربات:@kingbotpluss  
 
-!botnumber
-دریافت شماره ربات
-
-!support
-دعوت سازنده ربات به گروه
-(در صورت وجود مشکل)
-
-!version
-ورژن ربات
-
-!feedback (text)
-ارسال نظرات به سازنده
-
-you can use both "/" and "!" 
-.شما میتوانید از ! و / استفاده کنید
-
-channel: @kingbotpluss
-
-G00D LUCK ^_^
 ]]
    }
   serialize_to_file(config, './data/config.lua')
