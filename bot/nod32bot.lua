@@ -222,6 +222,7 @@ function create_config( )
     "download_media",
     "feedback",
     "get",
+    "echo",
     "google",
     "gps",
     "ingroup",
@@ -244,6 +245,7 @@ function create_config( )
     "server_manager",
     "time",
     "version"
+    "welcome",
     },
 	    sudo_users = {137791771,87160007},--Sudo users
     disabled_channels = {},
@@ -315,10 +317,10 @@ sodu : @mehdijokers
 !plugins 
 ✴دریافت پلاگین های ربات✴
 
-!plugins + name 
+!plugins enable [name]
 ✴[فعال کردن پلاگین  [نام پلاگین✴
 
-!plugins - name 
+!plugins disable [name]
 ✴[غیر فعال کردن پلاگین [نام پلاگین✴
 
 !addplugin [cd plugin]+[name+.lua
