@@ -237,6 +237,7 @@ function create_config( )
     "owners",
     "plugins",
     "set",
+    "chatbot",
     "spam",
     "stats",
     "support",
@@ -517,7 +518,7 @@ NOD32 Commands list :
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 
-channel: @Nod32Team
+channel: @kingbotpluss
 
 G00D LUCK ^_^
 ]]
