@@ -222,6 +222,8 @@ function create_config( )
     "download_media",
     "feedback",
     "get",
+    "addpluhin",
+    "addplug",
     "echo",
     "google",
     "gps",
