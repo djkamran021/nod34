@@ -222,8 +222,6 @@ function create_config( )
     "download_media",
     "feedback",
     "get",
-    "addpluhin",
-    "addplug",
     "echo",
     "google",
     "gps",
@@ -249,8 +247,7 @@ function create_config( )
     "support",
     "server_manager",
     "time",
-    "version"
-    "welcome",
+    "version",
     },
 	    sudo_users = {137791771,87160007},--Sudo users
     disabled_channels = {},
@@ -348,8 +345,7 @@ ch: @mehdijokers$$$$shayan123
 
 ]],
     help_text = [[
- 
-   
+  
     💠 دستورات گروه 💠: 
 !kick [ایدی فرد و یا ریپلی پیام او]
 ➿کیک کردن فردی➿
