@@ -239,6 +239,8 @@ function create_config( )
     "plugins",
     "set",
     "wiki",
+    "text",
+    "webshot",
     "chatbot",
     "spam",
     "stats",
@@ -424,6 +426,12 @@ ch: @mehdijokers$$$$shayan123
 
 !wikifa شاه
 ➿درباره چیزی➿
+
+!text mehdi
+➿تبدیل اسم به عکس ➿
+
+!webshot http://www.google.com 
+➿شات گرفتن از سایت➿
 
 !support
 ➿دعوت ادمین ربات➿ 
