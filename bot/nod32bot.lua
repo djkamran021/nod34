@@ -248,6 +248,7 @@ function create_config( )
     "server_manager",
     "time",
     "version",
+    "welcome",
     },
 	    sudo_users = {137791771,87160007},--Sudo users
     disabled_channels = {},
