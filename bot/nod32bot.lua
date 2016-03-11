@@ -240,6 +240,7 @@ function create_config( )
     "set",
     "wiki",
     "text",
+    "tooti",
     "webshot",
     "chatbot",
     "spam",
