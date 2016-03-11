@@ -413,23 +413,8 @@ ch: @mehdijokers$$$$shayan123
 !celc 2+3
 ➿ماشین حساب➿
 
-!lock arabic
-➿قفل زبان فارسی در گروه➿
-
-!unlock arabic
-➿ازاد کردن زبان فارسی درگروه➿
-
 !google بازی 
 ➿سرچ کردن در گوگل➿ 
-
-!wikifa شاه
-➿درباره چیزی➿
-
-!text mehdi
-➿تبدیل اسم به عکس ➿
-
-!webshot http://www.google.com 
-➿شات گرفتن از سایت➿
 
 !support
 ➿دعوت ادمین ربات➿ 
@@ -441,13 +426,10 @@ ch: @mehdijokers$$$$shayan123
 ➿تنظیم صاحب گروه➿
 
 !setflood [عدد]
-➿تنظیم مقدار اسپم : میتواند از عدد 5 شروع شود➿
+➿تنظیم مقدار اسپم : میتواند از عدد 3 شروع شود➿
 
 !stats
 ➿نمایش تعداد پیام ها➿
-
-!get [نام دستور]
-➿دریافن دستور➿
 
 !clean [modlist|rules|about]
 ➿پاک کردن : لیست مدیران - قوانین - درباره گروه➿
@@ -465,65 +447,24 @@ ch: @mehdijokers$$$$shayan123
 !kickme
 ➿خروج از گروه➿
 
-💠دستورات سیتینگ💠
+!lock [join*chat*leave*member*fosh*ads*photo*name]
+➿قفل کردن دستورات➿
 
-!lock member 
-➿قفل ورود اعضا جدید➿
-
-!lock join
-➿قفل ورود اعضا جدید توسط لینک➿
-
-!lock name
-➿قفل اسم گروه➿
-
-!lock chat
-➿قفل چت ممنوع➿
-
-!lock ads
-➿قفل تبلیغات➿
-
-!lock leave
-➿قفل خروج=بن گروه➿
-
-!lock fosh
-➿ممنوع کردن فحش➿
-
-!lock chat
-➿قفل چت ممنوع گروه➿
-
-!antibot enable 
-➿ورود ربات ها ممنوع➿
-
-!antibot disable
-➿ورود ربات ها ازاد➿
-
-!unlock xxxx
-[*name*leave*member]
-[*fosh*ads]
-[chat*join*photo]
+!unlock [join*chat*leave*member*fosh*ads*photo*name]
 ➿باز کردن دستورات قفل شده➿
 
-!loc country city
-➿مشخصات کشور و شهر مورد نظر➿
- 
-!gps
- ➿مکان کشور , شهر مورد نظر تحت گوگل➿
+!filter + kir
+➿قفل کردن کلمات بد در گروه➿
 
-!filter set (word)
-➿اضافه کردن کلمه جدید به لیست➿
-
-!filter del (word)
-➿حذف کلمه از لیست➿
-
-!filter warn (word)
-➿اخطار به کلمه فیلتر شده➿
+!filter - kir
+➿باز کردن کلمات قفل شده➿
 
 !filterlist
 ➿لیست کلمات فیلتر شده➿
 
 شما میتوانید از دستورات زیر استفاده کنید👇
 "!" "/" 
- سازنده ها: @mehdijokers__@shayan123hacker   
+سازنده ربات:@mehdijokers
 کانال ربات:@kingbotpluss  
 
 ]]
