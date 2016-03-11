@@ -19,16 +19,16 @@ if msg.text == "کینگ بوت" tehn
         return "بله" 
 end
 if msg.text == "Hello" then
-	return "Hi bb"
+	return "💙Hi❤"
 end
 if msg.text == "hello" then
-	return "Hi honey"
+	return "Hi bb"
 end
 if msg.text == "Salam" then
-	return "Salam aleykom"
+	return "salam azizam"
 end
 if msg.text == "salam" then
-	return "va aleykol asalam"
+	return "salam khobi"
 end
 if msg.text == "blackhat" then
 	return "my love blackhat"
@@ -81,6 +81,9 @@ end
 if msg.text == "?" then
 	return "Hum??"
 end
+if msg.text == "بای" then
+        return "بای بای" then
+end
 if msg.text == "خوبی" then
         return "مرسی" then
 end
@@ -91,7 +94,7 @@ if msg.text == "سلام" then
         return "سلام" then
 end
 if msg.text == "bye" then
-	return "boro bay"
+	return "bye bye"
 end
 end
 
@@ -114,14 +117,15 @@ return {
 		"^[Oo]off$",
 		"^Mehdi$",
 		"^[Nn]ice$",
-                "^س]لام]$",
-                "^خ]وبی]$",
-                "^ک]ینگ بوت]$",
+                "^سلام$",
+                "^خوبی$",
+                "^کینگ بوت$",
+                "^بای$",
 		"^[Ss]udoe man kie kie?$",
 		"^[Kk]ire??$",
 		"^?$",
                 "^[Mm]ehdi$",
-                "^م]هدی]$",
+                "^مهدی$",
 		"^[Ss]alam$",
 		}, 
 	run = run,
