@@ -1,4 +1,4 @@
-local function run(msg, matches)
+ al function run(msg, matches)
   local text = matches[1]
   local b = 1
 
@@ -10,11 +10,10 @@ local function run(msg, matches)
 end
 
 return {
-  description = "Reply Your Sent Message",
-  usage = "/بگو (message) : reply message",
+  description = "تکرار یک پیام",
+  usage = "بگو [whatever]: تکرار پیام",
   patterns = {
-    "^[!/]بگو +(.+)$"
+    "^بگو +(.+)$"
   }, 
-	run = run,
-	moderated = true
+  run = run 
 }
