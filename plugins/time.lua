@@ -1,3 +1,4 @@
+.83 KB
 -- Implement a command !time [area] which uses
 -- 2 Google APIs to get the desired result:
 --  1. Geocoding to get from area to a lat/long pair
@@ -76,7 +77,7 @@ end
 
 function getformattedLocalTime(area)
   if area == nil then
-    return "The time in nowhere is never"
+    return "این شهر وجود ندارن"
   end
 
   lat,lng,acc = get_latlong(area)
@@ -85,7 +86,7 @@ function getformattedLocalTime(area)
   end
   local localTime, timeZoneId = get_time(lat,lng)
 
-  return "The local time in "..timeZoneId.." is: ".. os.date(dateFormat,localTime) 
+  return "زمان در شهر "..timeZoneId.." اینگونه است: ".. os.date(dateFormat,localTime) 
 end
 
 function run(msg, matches)
@@ -93,12 +94,8 @@ function run(msg, matches)
 end
 
 return {
-  description = "Displays the local time in an area", 
-  usage = "!time [area]: Displays the local time in that area",
-  patterns = {"^!time (.*)$"}, 
+  description = "دریافت زمان منطقه", 
+  usage = "زمان [area]: زمان منطقه جغرافیایی",
+  patterns = {"^زمان (.*)$"}, 
   run = run
-}
---Copyright and edit; @behroozyaghi
---Persian Translate; @behroozyaghi
---ch : @nod32team
---کپی بدون ذکر منبع حرام است
+} 
