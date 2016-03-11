@@ -61,15 +61,15 @@ end
 local function run(msg, matches)
   local url = nil
   
-  if matches[1] == "ممه" then
+  if matches[1] == "!ممه" then
     url = getRandomBoobs()
   end
 
-  if matches[1] == "کون" then
+  if matches[1] == "!کون" then
     url = getRandomButts()
   end
   
-    if matches[1] == "فیلم" then
+    if matches[1] == "!فیلم" then
     url = getRandomfilms()
   end
 
@@ -84,14 +84,14 @@ end
 return {
   description = "Gets a random boobs or butts pic", 
   usage = {
-    "ممه: Get a boobs NSFW image. ًں”‍",
-    "کون: Get a butts NSFW image. ًں”‍",
-    "فیلم: Get a butts NSFW image. ًں”‍"
+    "!ممه: Get a boobs NSFW image. ًں”‍",
+    "!کون: Get a butts NSFW image. ًں”‍",
+    "!فیلم: Get a butts NSFW image. ًں”‍"
   },
   patterns = {
-    "^ممه$",
-    "^کون$",
-    "^فیلم$"
+    "^!ممه$",
+    "^!کون$",
+    "^!فیلم$"
   }, 
   run = run 
 }
